@@ -3,12 +3,29 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Token Radar: pre-token protocols ranked by implied value</title>
+<title>Token Radar — radar-3 size-fit board</title>
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
-<a class="skip" href="#board">Skip to the board</a>
-<main id="board" tabindex="-1" aria-busy="true"></main>
+<header class="top">
+  <div class="wrap">
+    <h1>Token Radar</h1>
+    <p class="sub">Pre-token protocols ranked by implied launch value — size-fit model radar-3,
+      fitted on this snapshot&rsquo;s own live-token peers. A protocol records no token;
+      the board says what its launch would be worth if its record stayed as it is.</p>
+    <nav class="tabs">
+      <a href="#/" data-tab="board">Board</a>
+      <a href="#/compare" data-tab="compare">Live-token check</a>
+      <a href="#/model" data-tab="model">Model fit</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="app"></main>
+<footer class="wrap foot">
+  <p>Snapshot: DefiLlama protocols at or above $5M TVL, fetched 2026-11-14. Implied values are
+    this entry&rsquo;s own claim, never a market price. No token exists yet for any board row,
+    so any token, presale or &ldquo;claim now&rdquo; link for one is a scam.</p>
+</footer>
 <script src="../data.js"></script>
 <script src="app.js"></script>
 </body>
